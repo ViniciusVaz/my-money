@@ -1,0 +1,33 @@
+{
+  "name": "my-money",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name my-money-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusVaz/my-money.git"
+  },
+  "author": "Vinicius VAz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ViniciusVaz/my-money/issues"
+  },
+  "homepage": "https://github.com/ViniciusVaz/my-money#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.1",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.10.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
